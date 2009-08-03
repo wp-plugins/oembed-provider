@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: oEmbed Provider
-Plugin URI: http://URI_Of_Page_Describing_Plugin_and_Updates
+Plugin URI: http://wordpress.org/extend/plugins/oembed-provider/
 Description: An oEmbed provider for Wordpress
 Version: 1.0
 Author: Craig Andrews <candrews@integralblue.com>
