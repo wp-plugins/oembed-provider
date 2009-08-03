@@ -16,10 +16,6 @@ oEmbed is a powerful protocol that allows sites to automatically embed content f
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
 1. Upload the plugin to `oembed-provider.php` in the `/wp-content/plugins/oembed-provider/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Step 3? There is no step 3!
