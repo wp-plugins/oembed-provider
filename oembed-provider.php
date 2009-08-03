@@ -3,7 +3,7 @@
 Plugin Name: oEmbed Provider
 Plugin URI: http://wordpress.org/extend/plugins/oembed-provider/
 Description: An oEmbed provider for Wordpress
-Version: 1.0
+Version: 1.1
 Author: Craig Andrews <candrews@integralblue.com>
 Author URI: http://candrews.integralblue.com
 */
@@ -79,7 +79,14 @@ if(function_exists('add_action')){
         switch($format){
             case 'json':
                 header('Content-Type: application/json; charset=' . get_option('blog_charset'), true);
+                $callback = $_GET['callback'];
+                if($callback){
+                    print $callback . '(';
+                }
                 print(json_encode($oembed));
+                if($callback){
+                    print ')';
+                }
                 break;
             case 'xml':
                 header('Content-Type: text/xml; charset=' . get_option('blog_charset'), true);

@@ -4,7 +4,7 @@ Donate link: http://candrews.integralblue.com/
 Tags: oembed, links
 Requires at least: 2.8.0
 Tested up to: 2.8.2
-Stable tag: 1.0
+Stable tag: 1.1
 
 An oEmbed provider for Wordpress.
 
@@ -27,6 +27,9 @@ oEmbed is a powerful protocol that allows sites to automatically embed content f
 Yes!
 
 == Changelog ==
+
+= 1.1 =
+* Added callback parameter for JSON-P
 
 = 1.0 =
 * Initial release
