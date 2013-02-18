@@ -1,10 +1,9 @@
 === oEmbed Provider ===
-Contributors: candrews
-Donate link: http://candrews.integralblue.com/
+Contributors: pfefferle, candrews
 Tags: oembed, links
-Requires at least: 2.8.0
-Tested up to: 2.8.2
-Stable tag: 1.1
+Requires at least: 3.0
+Tested up to: 3.5.1
+Stable tag: 2.0.0
 
 An oEmbed provider for Wordpress.
 
@@ -28,8 +27,8 @@ Yes!
 
 == Changelog ==
 
-= 1.1 =
-* Added callback parameter for JSON-P
+= 2.0.0 =
+* complete refactoring
 
 = 1.0 =
 * Initial release
